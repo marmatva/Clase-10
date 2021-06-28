@@ -1,0 +1,29 @@
+#simon{
+    border-style:ridge;
+    border-color: black;
+    width: auto;
+    height:auto;
+}
+.colors{
+    width: 30em;
+    height:15em;
+    margin: 1% 1%; 
+    border-radius: 15%;
+    opacity: 1;
+}
+
+#c1{
+    background-color: #BDB2FF;
+}
+
+#c2{
+    background-color: #FFC6FF;
+}
+
+#c3{
+    background-color: #CAFFBF;
+}
+
+#c4{
+    background-color: #85B4FF;
+}
