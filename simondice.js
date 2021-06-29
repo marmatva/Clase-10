@@ -57,18 +57,15 @@ function resetearJuego(){
 
 function bloquearInputUsuario(){
     let $colores=document.querySelectorAll('.colors');
-    $colores.forEach(color =>{
-        color.addEventListener('click', function(e){e.preventDefault()});
-    })
+    $colores.forEach(color => color.onclick = () =>{});
 }
 
 function desbloquearInputUsuario(){
     let $colores=document.querySelectorAll('.colors');
     $colores.forEach(color => {
-        color.addEventListener('click', (e) =>{
+        color.onclick = (e) =>{
             manejarInputUsuario(e);
-        })
-    })
+        }})
 }
 
 function resaltar(elemento){
